@@ -4,7 +4,7 @@ export const Food = ({positionFood}) => {
       <>
         <div className='food'
         style={{ 
-          backgroundImage: 'url(src/assets/Pomme.png)',
+          backgroundImage: 'url(Pomme.png)',
           backgroundSize: 'cover',
           
           gridColumn: positionFood[positionFood.length-1].x,
