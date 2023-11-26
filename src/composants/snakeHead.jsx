@@ -4,7 +4,7 @@ export const SnakeHead = ({positionHead, mouvementHead}) => {
       <>
         <div className='snakeHead'
         style={{ 
-          backgroundImage: 'url(../assets/SnakeHead.png)',
+          backgroundImage: 'url(SnakeHead.png)',
           backgroundSize: 'cover',
           transform: updateHeadSkin(mouvementHead),
           gridColumn: positionHead.x,

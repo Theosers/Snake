@@ -42,18 +42,18 @@ const alternateBodySkin = (mouvementBody, index)=> {
 
     if (index === mouvementBody.length - 1) {
     
-      return 'url(src/assets/Tail.png)'
+      return 'url(Tail.png)'
     }
     else if (mouvementBody[index].includes('Pressed')) {
 
-      return 'url(src/assets/Bend.png)'
+      return 'url(Bend.png)'
     }
     
     else if (index % 2 === 0) {
-      return 'url(src/assets/SnakeBodyOrange.png)'
+      return 'url(SnakeBodyOrange.png)'
     }
     else {
-      return 'url(src/assets/SnakeBodyBlack.png)'
+      return 'url(SnakeBodyBlack.png)'
     }
     
     }
