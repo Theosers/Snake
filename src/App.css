@@ -1,0 +1,72 @@
+
+#root {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('assets/Background.jpeg');
+  background-size: cover;
+}
+
+.App {
+  width: 80vh;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid #888;
+  box-shadow: rgb(152, 152, 152) 0 0 10px;
+
+  
+}
+.Title {
+  background-image: url('assets/Title.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
+  width: 100%;
+  height: 18vh;
+
+}
+
+.canvas {
+  background-image: url('assets/Grass.png');
+  background-size: 250px 250px;
+  
+  width: 80vh;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(20, 1fr);
+  grid-template-rows: repeat(20, 1fr);
+  
+  
+  border: 3px solid #888;
+  box-shadow: rgb(152, 152, 152) 0 0 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .body {
+    background-color: #de1010;
+  }
+  #root {
+    width: 100%;
+    height: 100%;
+    background-image: none;
+  }
+  .App {
+    width: 40vh;
+    height: 40vh;
+  }
+
+.canvas {
+  width: 40vh;
+  height: 40vh;
+
+}
+.IDE {
+  width: 1vh;
+  height: 1vh;
+}
+}

@@ -1,0 +1,17 @@
+ switch (e.key) {
+        case 'ArrowUp':
+          setMouvement('ArrowUp')
+          break;         
+
+        case 'ArrowDown':
+          setMouvement('ArrowDown')
+          break;
+
+        case 'ArrowLeft':
+          setMouvement('ArrowLeft')
+          break;
+        
+        case 'ArrowRight':
+          setMouvement('ArrowRight')
+          break;
+      }
