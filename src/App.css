@@ -70,3 +70,11 @@
   height: 1vh;
 }
 }
+
+.VercelImport {
+  background-image: 'assets/Tail.png';
+  background-image: 'assets/SnakeHead.png';
+  background-image: 'assets/Apple.png';
+  background-image: 'assets/SnakeBodyBlack.png';
+  background-image: 'assets/SnakeBodyOrange.png';
+}
